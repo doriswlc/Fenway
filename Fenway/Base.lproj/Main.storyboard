@@ -1,24 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21208.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21191"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="vER-NU-OAZ">
+            <objects>
+                <tableViewController id="NJh-Nm-35I" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="bfD-bk-yKr">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="wtN-qu-CwB">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="loO-sM-FbA">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="loO-sM-FbA" id="86k-VG-iL0">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alex #9 陳朋懋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2i-XW-5jc">
+                                                    <rect key="frame" x="20" y="11" width="114" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gid-ww-nLv">
+                                        <rect key="frame" x="0.0" y="93.666667938232422" width="390" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gid-ww-nLv" id="cNr-bj-wro">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="v7W-pZ-NBj">
+                                        <rect key="frame" x="0.0" y="137.33333587646484" width="390" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v7W-pZ-NBj" id="tyU-6z-JFo">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="NJh-Nm-35I" id="CV4-uw-B8E"/>
+                            <outlet property="delegate" destination="NJh-Nm-35I" id="DYn-kg-FmH"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wUm-aY-krk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="437" y="-674"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fenway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="22" y="4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4zT-tB-3fm">
+            <objects>
+                <viewController id="DoC-wU-0o6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gGY-sb-AWk">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gmg-Yj-4yl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zuh-VB-6U4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1148" y="1017"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IYd-dJ-Hdq">
+            <objects>
+                <viewController id="l9s-tM-H4z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bpj-uL-rte">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jEf-gV-iw9">
+                                <rect key="frame" x="16" y="419" width="358" height="376"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">從小就很喜歡棒球，為了看比賽幾乎跑遍了台灣各地的棒球場，職棒球季中也是常常全家一起看電視轉播，可以說是個死忠的球迷。喜歡看球並不代表會打球，甚至是成為教練。Peggy因為同學的邀約，加入了中大紅襪，在加入之前，就有聽說中大紅襪是個很特別的社區棒球隊，孩子是球員，爸爸是教練，媽媽是志工隊媽，所有東西都靠自己來。對於只會看球、不會打球的我想起來就覺得是個艱難的挑戰。真正加入後，靠著種子教練和有經驗的隊教練的指導，不僅是孩子從基本動作開始學起，身為新手隊爸教練的我也是一起學習，透過一些培訓課程，學得更多的棒球技巧與知識。雖然辛苦，卻很享受。短短幾個月，孩子跟我們都成長了不少，也多了很多共同的話題。 謝謝隊上的教練們，Nixon、阿煥、舜如，不厭其煩指導孩子們還有我們這些新手教練，讓我們能一起更快上軌道。謝謝維玲隊媽，總是處理隊上大大小小的事，比賽錄影後製，有妳真好。</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="F8B-22-qzN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4bY-fs-2Pw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1149" y="374"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vzd-aD-y9V">
+            <objects>
+                <viewController id="KLp-Qd-9Rc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LQh-Ox-cSi">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Pp-4w-eoa">
+                                <rect key="frame" x="20" y="444" width="350" height="306"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">這個球季要先感謝幾位前輩：Glavine教練、Victor教練，及海豚多分隊阿煥教練的鼓勵，讓棒球資歷非常短淺但熱愛運動的我，能勇敢地站出來擔任隊教練這個重任，每個週末在球場上陪孩子們奔跑，指導隊上13位二~四年級的小朋友打棒球。
+棒球是個團隊運動，不止是場上練習比賽的球員是一個Team，在場下指導及訓練球員的教練，也是要有一個教練團，才能面面俱到的顧及並指導各個進攻守備位置的球員。幸運的是在團練及投手的指導上，有經驗相當豐富的阿煥教練幫忙，打擊及團練時再加上舜如及小胖兩位教練幫忙，幾位教練加上隊爸幫忙，讓我的工作輕鬆不少。最後，更要感謝各位隊爸、隊媽，平時帶著小朋友進行每週兩次的自主訓練項目，並協助提點小球員的動作要領。從教練團到隊爸隊媽，再到每位小球員，一段時間累績下來，小球員的進步是有目共睹，進而讓小球員透過棒球，獲得自我成就感的滿足！
+尤其要感謝的是，這季劉總及教務處安排了煥星教練來分威隊當種子教練協助指導，這真的讓我們可以快地進入狀況去Run團練及夜練。
+另外有一個好康的經驗分享給各位大朋友，這季我也陪二女兒Cher在TB12打球，除了每週的練習外，整季到五月已進行了36場的比賽，期間我從旁觀察學習，聆聽賽後劉總、杜教練及各位教練的檢討與分享，確實令我得到許多的觀念及方法，將它們帶回分威隊來應證，從各項練習的方式、比賽時攻擊揮棒的策略，到各種狀況的處理與調度等等。在此要利用這個機會，推薦各位同好，不論你是擔任隊教練或是隊爸、隊媽，有機會可以就近帶著小朋友一起去觀看TB的賽事，保證可以讓大家的功力大增。
+最後寫給小球員們：棒球與其他運動最不同的，也是他迷人的地方，就是它是一個失敗率非常高的運動！對投手而言，你不可能三振所有面對到的打者，還要靠隊友幫忙守備才能拿下出局數。而對打者來說，十次能有三成左右能擊出安打，就已經是很不錯的，也表示其他七次的結果是出局，無法站上壘包。但我們不能因此灰心，仍要認真練習，學習從失敗中成長，面對挫折。機會是留給準備好的人，一旦掌握住，安打就會出現！
+最後一定要記錄一下我們的隊呼：
+分威團結一條心，一起走向總冠軍，
+紅襪主場在這邊，HR HR越過天！</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ao8-HP-EcD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ao8-HP-EcD" firstAttribute="trailing" secondItem="6Pp-4w-eoa" secondAttribute="trailing" constant="20" id="SiM-qu-M6y"/>
+                            <constraint firstItem="6Pp-4w-eoa" firstAttribute="top" secondItem="ao8-HP-EcD" secondAttribute="top" constant="400" id="ZKd-sD-gQe"/>
+                            <constraint firstItem="ao8-HP-EcD" firstAttribute="bottom" secondItem="6Pp-4w-eoa" secondAttribute="bottom" constant="60" id="acl-5r-4QG"/>
+                            <constraint firstItem="6Pp-4w-eoa" firstAttribute="leading" secondItem="ao8-HP-EcD" secondAttribute="leading" constant="20" id="sxz-xq-P9b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EvX-Tk-sgs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="374"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SwT-GK-v2N">
+            <objects>
+                <viewController id="FOt-OE-sBn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lNA-qQ-0Ve">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0bG-eR-CAq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ckU-Ip-yDr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="537" y="1017"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wj4-gq-hbk">
+            <objects>
+                <viewController id="fzZ-cr-oyf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5bq-3h-4nZ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Myp-lP-y7y">
+                                <rect key="frame" x="16" y="417" width="358" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">陪著自己的孩子打棒球是一開始的目的，隨著時間累積，慢慢看見他在團體中享受著打球帶來的各種快樂，漸漸的棒球已然成為我們父子倆假日的休閒。
+Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超熱血的團體，擔任助理教練就是協助隊練完成各項訓練，如何能讓隊員懂得教練傳達的動作要求以及下達的指令就成為一種挑戰，所以耐心和表達似乎成為一種自我的訓練。
+謝謝這一群強大的後勤支援團和一群不畏風吹日晒雨淋的強大陪練團，以及對棒球擁有強烈熱情的隊員們，讓我在這個疫情之下的一年，能夠有這麼多充滿汗水，跟隊上孩子們天真而純真的笑容所建構而成，名為「回憶」的珍貴寶藏。我相信，這一群Minor F的小小棒球員們，以後都仍然會用他們在這一年中所學到，不管是球技，還是棒球場上團結努力不懈的精神，都能讓他們在未來茫茫的人生道路上，闖出自己的一片天。屆時，他們會想到⎯那一年夏天，棒球場上，曾經的那一股熱血、瘋狂。</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VVc-pn-0R8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9bh-bn-nl8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1758" y="374"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UVz-Zn-D4G">
+            <objects>
+                <viewController id="eDr-97-0Gh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eOR-3u-MuM">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Ut-vy-2vX">
+                                <rect key="frame" x="16" y="417" width="358" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">下半球季進行了兩場聯賽之後，因為COVID-19疫情的關係賽事暫時中止，也因為如此改變了生活坐息，減少了練球的時間，無論是大人或是小球員一時之間確實是很難適應與調整，在過去的兩個月休季期間，我們隊上的小球員仍然持續不斷的自主練習，展現出驚人的意志力與決心，在上傳的影片中也很清楚地看到許多小球員都變胖了，可見得這次疫情的影響範圍有多大。
+今年是我加入紅襪的第三年，每週六下午從熱身開始、小組練習、團隊練習、模擬練習等，準備了很多功課與小球員分享，也因為自己愛玩，其實每每下去跟小球員一起傳接球，總是能找到一些歡樂及球場上的技能與他們共同成長。在Minor這個階段非常鼓勵各位大朋友一起參與練球，偶而看到別的隊爸在球場上滾個幾圈，想想自己也滾過幾次，也是蠻開心的，在球場上別太過於拘謹，緊張是沒有好表現的，一同參與練習責備就會少一點，因為你也會知道這一切並不容易。〝親子共學〞在這樣的環境下是非常美妙的，不論各位的棒球基礎是不是在同一個基準上，對於小球員都給於尊重與平等的機會是很難得的，因為這裡不是競技球隊，不要被成績的壓力所約束，我們就去玩吧！
+對於棒球，玩就對了。認真去玩、玩得認真。</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="O3M-gA-O49"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nqn-9W-JAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2366" y="374"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
