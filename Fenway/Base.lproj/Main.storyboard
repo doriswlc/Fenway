@@ -40,7 +40,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="KLp-Qd-9Rc" kind="show" trigger="accessoryAction" id="K8P-HT-FWR"/>
+                                            <segue destination="KLp-Qd-9Rc" kind="show" id="LVk-1G-ikQ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="iZk-Qh-xFa">
@@ -63,6 +63,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="fzZ-cr-oyf" kind="show" id="ImM-hA-Rse"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="VN4-wq-Blh">
                                         <rect key="frame" x="20" y="209" width="350" height="80"/>
@@ -84,6 +87,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="l9s-tM-H4z" kind="show" id="jFM-Hx-D7q"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="tpk-QJ-WGd">
                                         <rect key="frame" x="20" y="289" width="350" height="80"/>
@@ -105,6 +111,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eDr-97-0Gh" kind="show" id="66U-rN-ObK"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -219,7 +228,7 @@
                                         <rect key="frame" x="20" y="818.66666603088379" width="350" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hbG-C3-HDw" id="EEx-jM-SeM">
-                                            <rect key="frame" x="0.0" y="0.0" width="321.33333333333331" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="333.33333333333331" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sPeggy" translatesAutoresizingMaskIntoConstraints="NO" id="afE-UQ-9u1">
@@ -240,7 +249,7 @@
                                         <rect key="frame" x="20" y="898.66666603088379" width="350" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8B3-fz-dds" id="2pS-Fx-XgY">
-                                            <rect key="frame" x="0.0" y="0.0" width="321.33333333333331" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="333.33333333333331" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sLoris" translatesAutoresizingMaskIntoConstraints="NO" id="cpF-DC-EsG">
@@ -261,7 +270,7 @@
                                         <rect key="frame" x="20" y="978.66666603088379" width="350" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QHZ-0H-ixb" id="4mW-V4-CMY">
-                                            <rect key="frame" x="0.0" y="0.0" width="321.33333333333331" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="333.33333333333331" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sBruce" translatesAutoresizingMaskIntoConstraints="NO" id="RV5-M2-WOV">
@@ -395,23 +404,92 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wUm-aY-krk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="283" y="-938"/>
+            <point key="canvasLocation" x="246" y="-938"/>
         </scene>
-        <!--Item-->
+        <!--Hooray-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fenway" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="playViewController" customModule="Fenway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wem-cZ-122">
+                                <rect key="frame" x="45" y="57" width="300" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="英文名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCc-8g-7gH">
+                                <rect key="frame" x="20" y="510" width="80" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zQ-Q7-UDb">
+                                <rect key="frame" x="38" y="718" width="45" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="preButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="loG-68-Wk8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvD-6t-5eK">
+                                <rect key="frame" x="298" y="717.66666666666663" width="45" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="nextBotton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="STe-x6-pO2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="背號" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPL-Pb-0yK">
+                                <rect key="frame" x="118" y="518" width="41" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中文名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2H-J1-xzE">
+                                <rect key="frame" x="280" y="510" width="80" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="投 / 打" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQw-qT-TDF">
+                                <rect key="frame" x="200" y="518" width="56" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="加油口號" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmw-VN-47y">
+                                <rect key="frame" x="25" y="558" width="340" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="P4l-7o-0TN"/>
+                    <tabBarItem key="tabBarItem" title="Hooray" image="speaker.wave.3" catalog="system" selectedImage="speaker.3.fill" id="P4l-7o-0TN"/>
+                    <connections>
+                        <outlet property="cNameLabel" destination="w2H-J1-xzE" id="pry-Vv-Acl"/>
+                        <outlet property="eNameLabel" destination="tCc-8g-7gH" id="Vkf-Ec-wCt"/>
+                        <outlet property="hoorayLabel" destination="Pmw-VN-47y" id="am0-YS-WjW"/>
+                        <outlet property="nextButton" destination="rvD-6t-5eK" id="Hdb-Si-r2K"/>
+                        <outlet property="noLabel" destination="WPL-Pb-0yK" id="San-rE-jfd"/>
+                        <outlet property="picImageView" destination="Wem-cZ-122" id="tfW-JO-7QL"/>
+                        <outlet property="preButton" destination="6zQ-Q7-UDb" id="108-cK-wJ9"/>
+                        <outlet property="typeLabel" destination="YQw-qT-TDF" id="SwW-gu-hlF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-455" y="-245"/>
+            <point key="canvasLocation" x="-455.38461538461536" y="-245.260663507109"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4zT-tB-3fm">
@@ -449,10 +527,11 @@
                         <viewLayoutGuide key="safeArea" id="F8B-22-qzN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XW6-H1-PvI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bY-fs-2Pw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1813.8461538461538" y="-1299.5260663507108"/>
+            <point key="canvasLocation" x="2171" y="-1415"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vzd-aD-y9V">
@@ -462,7 +541,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Pp-4w-eoa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Pp-4w-eoa">
                                 <rect key="frame" x="20" y="488" width="350" height="213"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">這個球季要先感謝幾位前輩：Glavine教練、Victor教練，及海豚多分隊阿煥教練的鼓勵，讓棒球資歷非常短淺但熱愛運動的我，能勇敢地站出來擔任隊教練這個重任，每個週末在球場上陪孩子們奔跑，指導隊上13位二~四年級的小朋友打棒球。
@@ -474,7 +553,7 @@
 分威團結一條心，一起走向總冠軍，
 紅襪主場在這邊，HR HR越過天！</string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -491,7 +570,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EvX-Tk-sgs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1203.0769230769231" y="-1299.5260663507108"/>
+            <point key="canvasLocation" x="946" y="-1415"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SwT-GK-v2N">
@@ -531,10 +610,11 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                         <viewLayoutGuide key="safeArea" id="VVc-pn-0R8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="369-3z-O73"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9bh-bn-nl8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2423.0769230769229" y="-1299.5260663507108"/>
+            <point key="canvasLocation" x="1557" y="-1415"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UVz-Zn-D4G">
@@ -559,16 +639,17 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                         <viewLayoutGuide key="safeArea" id="O3M-gA-O49"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ppU-uB-BQ3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nqn-9W-JAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3030.7692307692305" y="-1299.5260663507108"/>
+            <point key="canvasLocation" x="2783" y="-1415"/>
         </scene>
         <!--Members-->
         <scene sceneID="FCk-8w-O3m">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RiF-hO-x5y" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Members" id="1PX-Rn-73N"/>
+                    <tabBarItem key="tabBarItem" title="Members" image="person.3" catalog="system" selectedImage="person.3.fill" id="1PX-Rn-73N"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1vS-RY-b16">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
@@ -589,12 +670,13 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2cW-vM-iPl" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="X7H-Kz-9xn">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Sqf-pL-ncZ"/>
                         <segue destination="RiF-hO-x5y" kind="relationship" relationship="viewControllers" id="eL2-rb-vS9"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Sqf-pL-ncZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mOJ-Fp-Vpx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -603,6 +685,8 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
         </scene>
     </scenes>
     <resources>
+        <image name="person.3" catalog="system" width="128" height="62"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="sAlex" width="175" height="175"/>
         <image name="sAlexp" width="175" height="175"/>
         <image name="sBenson" width="175" height="175"/>
@@ -620,6 +704,8 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
         <image name="sSean" width="175" height="175"/>
         <image name="sTommy" width="175" height="175"/>
         <image name="sUlli" width="175" height="175"/>
+        <image name="speaker.3.fill" catalog="system" width="128" height="86"/>
+        <image name="speaker.wave.3" catalog="system" width="128" height="86"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
