@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D30461528B5FDF900BFE590 /* PlayYTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D30461428B5FDF900BFE590 /* PlayYTViewController.swift */; };
 		5D61FC6A28968F9200A34F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61FC6928968F9200A34F38 /* AppDelegate.swift */; };
 		5D61FC6C28968F9200A34F38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61FC6B28968F9200A34F38 /* SceneDelegate.swift */; };
-		5D61FC6E28968F9200A34F38 /* playViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61FC6D28968F9200A34F38 /* playViewController.swift */; };
+		5D61FC6E28968F9200A34F38 /* HoorayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61FC6D28968F9200A34F38 /* HoorayViewController.swift */; };
 		5D61FC7128968F9200A34F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61FC6F28968F9200A34F38 /* Main.storyboard */; };
 		5D61FC7328968FA100A34F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D61FC7228968FA100A34F38 /* Assets.xcassets */; };
 		5D61FC7628968FA100A34F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61FC7428968FA100A34F38 /* LaunchScreen.storyboard */; };
@@ -27,13 +28,16 @@
 		5DAFE24828A38D720054E4A1 /* Gary.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE23B28A38D720054E4A1 /* Gary.mp4 */; };
 		5DAFE24928A38D720054E4A1 /* Bruce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE23C28A38D720054E4A1 /* Bruce.mp3 */; };
 		5DAFE24A28A38D720054E4A1 /* Eaddie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE23D28A38D720054E4A1 /* Eaddie.m4a */; };
+		5DEA130E28B5FB51005D70B6 /* SelectYTTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEA130D28B5FB51005D70B6 /* SelectYTTableViewController.swift */; };
+		5DEA131028B5FD0F005D70B6 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEA130F28B5FD0F005D70B6 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D30461428B5FDF900BFE590 /* PlayYTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayYTViewController.swift; sourceTree = "<group>"; };
 		5D61FC6628968F9200A34F38 /* Fenway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fenway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D61FC6928968F9200A34F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D61FC6B28968F9200A34F38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D61FC6D28968F9200A34F38 /* playViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playViewController.swift; sourceTree = "<group>"; };
+		5D61FC6D28968F9200A34F38 /* HoorayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoorayViewController.swift; sourceTree = "<group>"; };
 		5D61FC7028968F9200A34F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D61FC7228968FA100A34F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D61FC7528968FA100A34F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 		5DAFE23B28A38D720054E4A1 /* Gary.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gary.mp4; sourceTree = "<group>"; };
 		5DAFE23C28A38D720054E4A1 /* Bruce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bruce.mp3; sourceTree = "<group>"; };
 		5DAFE23D28A38D720054E4A1 /* Eaddie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eaddie.m4a; sourceTree = "<group>"; };
+		5DEA130D28B5FB51005D70B6 /* SelectYTTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectYTTableViewController.swift; sourceTree = "<group>"; };
+		5DEA130F28B5FD0F005D70B6 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +93,11 @@
 				5DAFE23028A38B4B0054E4A1 /* Models */,
 				5D61FC6928968F9200A34F38 /* AppDelegate.swift */,
 				5D61FC6B28968F9200A34F38 /* SceneDelegate.swift */,
-				5D61FC6D28968F9200A34F38 /* playViewController.swift */,
+				5DAFE22E28A3873D0054E4A1 /* Members.swift */,
+				5DEA130F28B5FD0F005D70B6 /* Playlist.swift */,
+				5D61FC6D28968F9200A34F38 /* HoorayViewController.swift */,
+				5D30461428B5FDF900BFE590 /* PlayYTViewController.swift */,
+				5DEA130D28B5FB51005D70B6 /* SelectYTTableViewController.swift */,
 				5D61FC6F28968F9200A34F38 /* Main.storyboard */,
 				5D61FC7228968FA100A34F38 /* Assets.xcassets */,
 				5D61FC7428968FA100A34F38 /* LaunchScreen.storyboard */,
@@ -112,7 +122,6 @@
 				5DAFE23928A38D720054E4A1 /* Sean.mp3 */,
 				5DAFE23A28A38D720054E4A1 /* Tommy.m4a */,
 				5DAFE23428A38D720054E4A1 /* Ulli.mp4 */,
-				5DAFE22E28A3873D0054E4A1 /* Members.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,10 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D61FC6E28968F9200A34F38 /* playViewController.swift in Sources */,
+				5D61FC6E28968F9200A34F38 /* HoorayViewController.swift in Sources */,
+				5D30461528B5FDF900BFE590 /* PlayYTViewController.swift in Sources */,
 				5D61FC6A28968F9200A34F38 /* AppDelegate.swift in Sources */,
 				5D61FC6C28968F9200A34F38 /* SceneDelegate.swift in Sources */,
+				5DEA130E28B5FB51005D70B6 /* SelectYTTableViewController.swift in Sources */,
 				5DAFE22F28A3873D0054E4A1 /* Members.swift in Sources */,
+				5DEA131028B5FD0F005D70B6 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
