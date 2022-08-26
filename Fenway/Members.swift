@@ -13,6 +13,7 @@ struct Members {
     var cName: String
     var type: String
     var pic: String
+    var words: String
     var hooray: String
     var music: String
     var musicExt: String

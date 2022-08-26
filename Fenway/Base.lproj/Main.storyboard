@@ -12,7 +12,7 @@
         <!--Members-->
         <scene sceneID="vER-NU-OAZ">
             <objects>
-                <tableViewController id="NJh-Nm-35I" sceneMemberID="viewController">
+                <tableViewController id="NJh-Nm-35I" customClass="SelectMemberTableViewController" customModule="Fenway" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="bfD-bk-yKr">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,6 +139,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#9" destinationCreationSelector="showMember:sender:segueIdentifier:" id="Pul-Ft-e75"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="gBY-Tg-cAQ">
                                         <rect key="frame" x="20" y="498.66666603088379" width="350" height="80"/>
@@ -160,6 +163,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#12" destinationCreationSelector="showMember:sender:segueIdentifier:" id="WxR-8d-kga"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="axs-LW-ZEV">
                                         <rect key="frame" x="20" y="578.66666603088379" width="350" height="80"/>
@@ -181,6 +187,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#89" destinationCreationSelector="showMember:sender:segueIdentifier:" id="03s-Z3-FFx"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="4PD-6g-vOS">
                                         <rect key="frame" x="20" y="658.66666603088379" width="350" height="80"/>
@@ -202,6 +211,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#56" destinationCreationSelector="showMember:sender:segueIdentifier:" id="81S-Pl-23F"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="mTn-z3-OMn">
                                         <rect key="frame" x="20" y="738.66666603088379" width="350" height="80"/>
@@ -223,6 +235,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#1" destinationCreationSelector="showMember:sender:segueIdentifier:" id="J61-zI-ttX"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="hbG-C3-HDw">
                                         <rect key="frame" x="20" y="818.66666603088379" width="350" height="80"/>
@@ -244,6 +259,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#42" destinationCreationSelector="showMember:sender:segueIdentifier:" id="sGT-Wg-gbH"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="8B3-fz-dds">
                                         <rect key="frame" x="20" y="898.66666603088379" width="350" height="80"/>
@@ -265,6 +283,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#79" destinationCreationSelector="showMember:sender:segueIdentifier:" id="BdM-YE-q1F"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="QHZ-0H-ixb">
                                         <rect key="frame" x="20" y="978.66666603088379" width="350" height="80"/>
@@ -286,6 +307,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#60" destinationCreationSelector="showMember:sender:segueIdentifier:" id="B7i-sq-87c"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="ing-Ra-d4a">
                                         <rect key="frame" x="20" y="1058.6666660308838" width="350" height="80"/>
@@ -307,6 +331,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#45" destinationCreationSelector="showMember:sender:segueIdentifier:" id="TT7-7V-T0m"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="RXe-Yx-LPr">
                                         <rect key="frame" x="20" y="1138.6666660308838" width="350" height="80"/>
@@ -328,6 +355,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#20" destinationCreationSelector="showMember:sender:segueIdentifier:" id="ySc-zM-3FT"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="syF-5A-7r2">
                                         <rect key="frame" x="20" y="1218.6666660308838" width="350" height="80"/>
@@ -349,6 +379,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#38" destinationCreationSelector="showMember:sender:segueIdentifier:" id="o8U-ur-dJv"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="NRP-Ge-sbH">
                                         <rect key="frame" x="20" y="1298.6666660308838" width="350" height="80"/>
@@ -370,6 +403,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#13" destinationCreationSelector="showMember:sender:segueIdentifier:" id="NSB-v7-LFn"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="fry-Ln-QGG">
                                         <rect key="frame" x="20" y="1378.6666660308838" width="350" height="80"/>
@@ -391,6 +427,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="elF-a4-kT4" kind="show" identifier="#55" destinationCreationSelector="showMember:sender:segueIdentifier:" id="VHt-YP-MNl"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -415,7 +454,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
-                            <tableViewSection id="Gjo-tC-h3O">
+                            <tableViewSection headerTitle="精采賽事回顧" id="Gjo-tC-h3O">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="5YE-uW-vAK">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="75"/>
@@ -639,99 +678,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tfJ-EA-s1t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-792" y="429"/>
-        </scene>
-        <!--Hooray-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="HoorayViewController" customModule="Fenway" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wem-cZ-122">
-                                <rect key="frame" x="45" y="69" width="300" height="400"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="071-5Z-kbh"/>
-                                    <constraint firstAttribute="height" constant="400" id="6gh-4l-yU2"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="英文名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCc-8g-7gH">
-                                <rect key="frame" x="30" y="494" width="80" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zQ-Q7-UDb">
-                                <rect key="frame" x="38" y="718" width="45" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <connections>
-                                    <action selector="preButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="loG-68-Wk8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvD-6t-5eK">
-                                <rect key="frame" x="298" y="717.66666666666663" width="45" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <connections>
-                                    <action selector="nextBotton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="STe-x6-pO2"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="背號" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPL-Pb-0yK">
-                                <rect key="frame" x="118" y="526" width="41" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中文名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2H-J1-xzE">
-                                <rect key="frame" x="280" y="494" width="80" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="投 / 打" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQw-qT-TDF">
-                                <rect key="frame" x="216" y="526" width="56" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="加油口號" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmw-VN-47y">
-                                <rect key="frame" x="25" y="566" width="340" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Wem-cZ-122" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="CTo-an-REU"/>
-                            <constraint firstItem="Wem-cZ-122" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I3f-Bf-5Bv"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Hooray" image="speaker.wave.3" catalog="system" selectedImage="speaker.3.fill" id="P4l-7o-0TN"/>
-                    <connections>
-                        <outlet property="cNameLabel" destination="w2H-J1-xzE" id="pry-Vv-Acl"/>
-                        <outlet property="eNameLabel" destination="tCc-8g-7gH" id="Vkf-Ec-wCt"/>
-                        <outlet property="hoorayLabel" destination="Pmw-VN-47y" id="am0-YS-WjW"/>
-                        <outlet property="nextButton" destination="rvD-6t-5eK" id="Hdb-Si-r2K"/>
-                        <outlet property="noLabel" destination="WPL-Pb-0yK" id="San-rE-jfd"/>
-                        <outlet property="picImageView" destination="Wem-cZ-122" id="tfW-JO-7QL"/>
-                        <outlet property="preButton" destination="6zQ-Q7-UDb" id="108-cK-wJ9"/>
-                        <outlet property="typeLabel" destination="YQw-qT-TDF" id="SwW-gu-hlF"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-455.38461538461536" y="-245.260663507109"/>
+            <point key="canvasLocation" x="-455" y="126"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IYd-dJ-Hdq">
@@ -968,40 +915,115 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                     <connections>
                         <segue destination="ch5-O3-1Zm" kind="relationship" relationship="viewControllers" id="rKR-rW-AG6"/>
                         <segue destination="RiF-hO-x5y" kind="relationship" relationship="viewControllers" id="eL2-rb-vS9"/>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Sqf-pL-ncZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mOJ-Fp-Vpx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1565" y="-565"/>
         </scene>
-        <!--View Controller-->
+        <!--Member View Controller-->
         <scene sceneID="udS-Ko-ZeJ">
             <objects>
-                <viewController id="elF-a4-kT4" sceneMemberID="viewController">
+                <viewController id="elF-a4-kT4" customClass="MemberViewController" customModule="Fenway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Djg-5o-mbd">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5HV-Xv-mIk">
-                                <rect key="frame" x="78" y="186" width="235" height="360"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5HV-Xv-mIk">
+                                <rect key="frame" x="77.666666666666686" y="113" width="235" height="360"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="235" id="024-bt-I2R"/>
                                     <constraint firstAttribute="height" constant="360" id="4Un-oc-Cbl"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="英文名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCc-8g-7gH">
+                                <rect key="frame" x="25" y="481" width="80" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="中文名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2H-J1-xzE">
+                                <rect key="frame" x="285" y="481" width="80" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="背號" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPL-Pb-0yK">
+                                <rect key="frame" x="113" y="481" width="33" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="投 / 打" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQw-qT-TDF">
+                                <rect key="frame" x="231" y="480" width="46" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="加油口號" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmw-VN-47y">
+                                <rect key="frame" x="25" y="515" width="252" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ig1-ML-kXv">
+                                <rect key="frame" x="25" y="583" width="340" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGk-Io-d2E">
+                                <rect key="frame" x="285" y="522.33333333333348" width="80" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" backgroundImage="playpause.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="fhi-P1-qyv" kind="show" destinationCreationSelector="playHooray:" id="45J-Nu-y8R"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ori-Pz-3Bg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5HV-Xv-mIk" firstAttribute="top" secondItem="ori-Pz-3Bg" secondAttribute="top" constant="25" id="Mqo-U6-4Ba"/>
+                            <constraint firstItem="5HV-Xv-mIk" firstAttribute="centerX" secondItem="Djg-5o-mbd" secondAttribute="centerX" id="npQ-e3-JJU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="clN-H3-x3E"/>
+                    <connections>
+                        <outlet property="cName" destination="w2H-J1-xzE" id="T9u-4a-uC9"/>
+                        <outlet property="eName" destination="tCc-8g-7gH" id="r7V-4o-637"/>
+                        <outlet property="hooray" destination="Pmw-VN-47y" id="A4N-6B-nsc"/>
+                        <outlet property="no" destination="WPL-Pb-0yK" id="zJR-dw-B1B"/>
+                        <outlet property="picImage" destination="5HV-Xv-mIk" id="cIa-79-2IN"/>
+                        <outlet property="type" destination="YQw-qT-TDF" id="Yo8-ny-Mk4"/>
+                        <outlet property="words" destination="Ig1-ML-kXv" id="zgd-fa-02I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibW-PI-7x8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944.61538461538453" y="-454.26540284360186"/>
+            <point key="canvasLocation" x="1236.9230769230769" y="-681.042654028436"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="zr0-vR-Cp1">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="fhi-P1-qyv" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1iD-jl-svw"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nRT-DK-BLV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1888" y="-681"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="81S-Pl-23F"/>
         <segue reference="wfr-h5-qgi"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1012,6 +1034,7 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
         <image name="person.3" catalog="system" width="128" height="62"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="play.rectangle.fill" catalog="system" width="128" height="93"/>
+        <image name="playpause.fill" catalog="system" width="128" height="70"/>
         <image name="sAlex" width="175" height="175"/>
         <image name="sAlexp" width="175" height="175"/>
         <image name="sBenson" width="175" height="175"/>
@@ -1029,8 +1052,6 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
         <image name="sSean" width="175" height="175"/>
         <image name="sTommy" width="175" height="175"/>
         <image name="sUlli" width="175" height="175"/>
-        <image name="speaker.3.fill" catalog="system" width="128" height="86"/>
-        <image name="speaker.wave.3" catalog="system" width="128" height="86"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
