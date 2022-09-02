@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D30461528B5FDF900BFE590 /* PlayYTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D30461428B5FDF900BFE590 /* PlayYTViewController.swift */; };
 		5D61FC6A28968F9200A34F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61FC6928968F9200A34F38 /* AppDelegate.swift */; };
 		5D61FC6C28968F9200A34F38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61FC6B28968F9200A34F38 /* SceneDelegate.swift */; };
 		5D61FC7128968F9200A34F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61FC6F28968F9200A34F38 /* Main.storyboard */; };
@@ -30,11 +29,9 @@
 		5DE7D2CF28B7314600813DE2 /* SelectMemberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7D2CE28B7314600813DE2 /* SelectMemberTableViewController.swift */; };
 		5DE7D2D128B731B300813DE2 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE7D2D028B731B300813DE2 /* MemberViewController.swift */; };
 		5DEA130E28B5FB51005D70B6 /* SelectYTTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEA130D28B5FB51005D70B6 /* SelectYTTableViewController.swift */; };
-		5DEA131028B5FD0F005D70B6 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEA130F28B5FD0F005D70B6 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D30461428B5FDF900BFE590 /* PlayYTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayYTViewController.swift; sourceTree = "<group>"; };
 		5D61FC6628968F9200A34F38 /* Fenway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fenway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D61FC6928968F9200A34F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D61FC6B28968F9200A34F38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +56,6 @@
 		5DE7D2CE28B7314600813DE2 /* SelectMemberTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMemberTableViewController.swift; sourceTree = "<group>"; };
 		5DE7D2D028B731B300813DE2 /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
 		5DEA130D28B5FB51005D70B6 /* SelectYTTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectYTTableViewController.swift; sourceTree = "<group>"; };
-		5DEA130F28B5FD0F005D70B6 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +92,7 @@
 				5D61FC6928968F9200A34F38 /* AppDelegate.swift */,
 				5D61FC6B28968F9200A34F38 /* SceneDelegate.swift */,
 				5DAFE22E28A3873D0054E4A1 /* Members.swift */,
-				5DEA130F28B5FD0F005D70B6 /* Playlist.swift */,
 				5DE7D2CE28B7314600813DE2 /* SelectMemberTableViewController.swift */,
-				5D30461428B5FDF900BFE590 /* PlayYTViewController.swift */,
 				5DEA130D28B5FB51005D70B6 /* SelectYTTableViewController.swift */,
 				5DE7D2D028B731B300813DE2 /* MemberViewController.swift */,
 				5D61FC6F28968F9200A34F38 /* Main.storyboard */,
@@ -214,12 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE7D2D128B731B300813DE2 /* MemberViewController.swift in Sources */,
-				5D30461528B5FDF900BFE590 /* PlayYTViewController.swift in Sources */,
 				5D61FC6A28968F9200A34F38 /* AppDelegate.swift in Sources */,
 				5D61FC6C28968F9200A34F38 /* SceneDelegate.swift in Sources */,
 				5DEA130E28B5FB51005D70B6 /* SelectYTTableViewController.swift in Sources */,
 				5DAFE22F28A3873D0054E4A1 /* Members.swift in Sources */,
-				5DEA131028B5FD0F005D70B6 /* Playlist.swift in Sources */,
 				5DE7D2CF28B7314600813DE2 /* SelectMemberTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

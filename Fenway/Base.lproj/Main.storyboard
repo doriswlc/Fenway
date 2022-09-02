@@ -472,9 +472,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl1" destinationCreationSelector="playYT:sender:segueIdentifier:" id="fBs-mP-H7M"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="S7d-X4-VPt">
                                         <rect key="frame" x="0.0" y="119.66666603088379" width="390" height="75"/>
@@ -492,9 +489,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl2" destinationCreationSelector="playYT:sender:segueIdentifier:" id="vso-cK-eYL"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="1pb-2o-sxu">
                                         <rect key="frame" x="0.0" y="194.66666603088379" width="390" height="75"/>
@@ -512,9 +506,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl3" destinationCreationSelector="playYT:sender:segueIdentifier:" id="R5a-7z-m3p"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="Zn6-9n-fdh">
                                         <rect key="frame" x="0.0" y="269.66666603088379" width="390" height="75"/>
@@ -532,9 +523,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl4" destinationCreationSelector="playYT:sender:segueIdentifier:" id="mOk-4U-8qv"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="aAl-lz-Wjk">
                                         <rect key="frame" x="0.0" y="344.66666603088379" width="390" height="75"/>
@@ -552,9 +540,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl5" destinationCreationSelector="playYT:sender:segueIdentifier:" id="ujM-7O-8Ah"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="31U-Ye-9iV">
                                         <rect key="frame" x="0.0" y="419.66666603088379" width="390" height="75"/>
@@ -572,9 +557,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl6" destinationCreationSelector="playYT:sender:segueIdentifier:" id="x3I-W1-2hE"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="Owh-DP-OO0">
                                         <rect key="frame" x="0.0" y="494.66666603088379" width="390" height="75"/>
@@ -592,9 +574,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl7" destinationCreationSelector="playYT:sender:segueIdentifier:" id="Tfc-Nk-L0X"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="Tgn-bX-4Yd">
                                         <rect key="frame" x="0.0" y="569.66666603088379" width="390" height="75"/>
@@ -612,9 +591,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl8" destinationCreationSelector="playYT:sender:segueIdentifier:" id="Yza-zv-d7T"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="msC-cd-xLv">
                                         <rect key="frame" x="0.0" y="644.66666603088379" width="390" height="75"/>
@@ -632,9 +608,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="SP0-zk-JSF" kind="show" identifier="pl9" destinationCreationSelector="playYT:sender:segueIdentifier:" id="wfr-h5-qgi"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -645,40 +618,21 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="YouTube" image="play.rectangle.fill" catalog="system" id="5ut-gp-qar"/>
+                    <connections>
+                        <outletCollection property="videoLabel" destination="EvH-53-SjC" collectionClass="NSMutableArray" id="aJv-gu-XUl"/>
+                        <outletCollection property="videoLabel" destination="jTg-VQ-Vfx" collectionClass="NSMutableArray" id="FPP-gV-T3A"/>
+                        <outletCollection property="videoLabel" destination="3bD-vy-egZ" collectionClass="NSMutableArray" id="7ej-eB-cf8"/>
+                        <outletCollection property="videoLabel" destination="OkG-Fo-Ukh" collectionClass="NSMutableArray" id="Av1-kM-SPO"/>
+                        <outletCollection property="videoLabel" destination="dPP-dq-CvV" collectionClass="NSMutableArray" id="0oj-42-pwQ"/>
+                        <outletCollection property="videoLabel" destination="XiF-kg-Tyr" collectionClass="NSMutableArray" id="qsF-Lc-76T"/>
+                        <outletCollection property="videoLabel" destination="dXa-5O-3Q9" collectionClass="NSMutableArray" id="4eA-6b-set"/>
+                        <outletCollection property="videoLabel" destination="NWC-YL-BMY" collectionClass="NSMutableArray" id="94r-RC-int"/>
+                        <outletCollection property="videoLabel" destination="KVH-PT-eab" collectionClass="NSMutableArray" id="HbU-9i-fxW"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnE-Ha-Wy0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1566.1538461538462" y="125.82938388625591"/>
-        </scene>
-        <!--PlayYT View Controller-->
-        <scene sceneID="ecq-c3-wtn">
-            <objects>
-                <viewController id="SP0-zk-JSF" customClass="PlayYTViewController" customModule="Fenway" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="b4W-NT-Zky">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZA2-qx-1tj">
-                                <rect key="frame" x="-9" y="64" width="399" height="717"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="C1V-hO-dCo"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Ltt-Cx-clL"/>
-                    <connections>
-                        <outlet property="webView" destination="ZA2-qx-1tj" id="kkW-zC-3q7"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tfJ-EA-s1t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-455" y="126"/>
+            <point key="canvasLocation" x="-1149" y="-272"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IYd-dJ-Hdq">
@@ -726,7 +680,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bY-fs-2Pw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2170.7692307692305" y="-1415.4028436018957"/>
+            <point key="canvasLocation" x="2502" y="-1071"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vzd-aD-y9V">
@@ -781,7 +735,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EvX-Tk-sgs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="-1415"/>
+            <point key="canvasLocation" x="1205" y="-1071"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wj4-gq-hbk">
@@ -831,7 +785,7 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9bh-bn-nl8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1556.9230769230769" y="-1415.4028436018957"/>
+            <point key="canvasLocation" x="1857" y="-1071"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UVz-Zn-D4G">
@@ -881,7 +835,7 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nqn-9W-JAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2781.5384615384614" y="-1415.4028436018957"/>
+            <point key="canvasLocation" x="3145" y="-1071"/>
         </scene>
         <!--Members-->
         <scene sceneID="FCk-8w-O3m">
@@ -919,7 +873,7 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mOJ-Fp-Vpx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1565" y="-565"/>
+            <point key="canvasLocation" x="-1148" y="-938"/>
         </scene>
         <!--Member View Controller-->
         <scene sceneID="udS-Ko-ZeJ">
@@ -1009,7 +963,7 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibW-PI-7x8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236.9230769230769" y="-681.042654028436"/>
+            <point key="canvasLocation" x="1205" y="-358"/>
         </scene>
         <!--AV Player View Controller-->
         <scene sceneID="zr0-vR-Cp1">
@@ -1019,12 +973,11 @@ Minor F Fenway是一個隊員出席率以及家長參與度極高且隊教練超
                 </avPlayerViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nRT-DK-BLV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1888" y="-681"/>
+            <point key="canvasLocation" x="1858" y="-358"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="81S-Pl-23F"/>
-        <segue reference="wfr-h5-qgi"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AlexPa" width="518" height="644"/>
